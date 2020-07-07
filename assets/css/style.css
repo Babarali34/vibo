@@ -1,0 +1,246 @@
+
+@font-face {
+  font-family:WorkSans-BoldItalic;
+  src: url(../fonts/WorkSans-Bold.ttf);
+}
+
+
+@font-face {
+  font-family:WorkSans-SemiBold;
+  src: url(../fonts/WorkSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family:WorkSans-Regular;
+  src: url('../fonts/WorkSans-Regular.ttf');
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+h1,h2,h3,h4
+{font-family: 'WorkSans-BoldItalic';}
+
+h5,h6
+{font-family: 'WorkSans-SemiBold';}
+
+p{font-family: 'WorkSans-Regular';font-size: 14px;line-height: 25px;}
+
+
+
+a{font-family: 'WorkSans-SemiBold';}
+
+/*custom css*/
+
+
+
+
+*{
+	margin: 0;padding: 0;box-sizing: border-box;
+}
+
+:root{
+     --blue-coloor:#2ebaee;
+     --black-coloor:#000000;
+}
+html{
+  scroll-behavior: smooth;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px; 
+  background: #506a85;
+  border-radius: 10px;position: 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--blue-coloor); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+
+
+
+/*************************
+ HEADER 
+ **************************/
+
+ header
+ {background-image: url(../images/bg.png);width: 100%;background-size: cover;
+  background-position: center; height: 100vh;overflow: hidden;}
+
+  .nav-item
+  {padding: 30px 20px;}
+
+  .nav-item .nav-link
+  {color: #fff;}
+
+  .header-text
+  {width: 100%;margin: auto;text-align: center;padding: 20px 0 0 0;color: #fff;}
+ .header-text h1
+ {font-size: 3rem;}
+  .header-text a
+  {padding: 15px 30px;margin-left: 10px;text-decoration: none;border-radius: 10px;
+    transition: .5s ease;}
+
+.fa-bars
+{font-size: 30px;}
+
+ .header-text a.btnn:nth-child(1)
+  {background: #fff;border:1px solid #fff;color: #000;}
+
+.header-text a.btnn:nth-child(1):hover
+  {background: transparent;border:1px solid #fff;color: #fff;}
+
+ .header-text a.btnn:nth-child(2)
+  {background: transparent;border:1px solid #fff;color: #fff;}
+
+   .header-text a.btnn:nth-child(2):hover
+  {background: #fff;border:1px solid #fff;color: #000;}
+
+
+.services-section
+{padding: 120px 0;background: #fafafc;
+}
+
+.services-section .services-card
+{padding: 40px 20px;
+width: 100%;text-align: center;
+-webkit-box-shadow: -1px -4px 61px -6px rgba(250,250,252,1);
+-moz-box-shadow: -1px -4px 61px -6px rgba(250,250,252,1);
+box-shadow: -1px -4px 61px -6px rgba(250,250,252,1);-webkit-box-shadow: -1px -4px 61px -6px rgba(201,201,207,1);
+-moz-box-shadow: -1px -4px 61px -6px rgba(201,201,207,1);
+box-shadow: -1px -4px 61px -6px rgba(201,201,207,1);}
+
+.services-section .services-card .services-icon
+{margin: auto !important;width: 100%;padding: 20px 0;}
+
+
+.services-section .services-card h5
+{padding: 20px 0;}
+
+
+
+.services-section .services-card .services-icon img
+{margin: auto;display: block;}
+
+.space1
+{height: 70px !important;}
+.space
+{height: 20px !important;}
+
+
+/*********************************
+******ready-stable**
+**********************************/
+
+.ready-stable
+{padding: 80px 0;}
+
+.ready-stable .text 
+{display: block;margin:20px  0 40px;}
+
+  .ready-stable .text .btnn
+  {padding: 15px 30px;text-decoration: none;background: #33d2fd;
+    border-radius: 10px;color: #fff;}
+.ready-stable .card
+{background: #ffffff;border: none;
+-webkit-box-shadow: 1px -2px 51px -2px rgba(214,210,214,1);
+-moz-box-shadow: 1px -2px 51px -2px rgba(214,210,214,1);
+box-shadow: 1px -2px 51px -2px rgba(214,210,214,1);
+}
+
+ .ready-stable  .card-body
+ {background: #ffffff;border: none;}
+
+
+
+
+
+
+.everything-need
+{padding: 80px 0;background-color: #fafafc;}
+
+/************************
+** andoried-phone
+************************/
+
+.andoried-phone
+{padding: 100px 0;background-image: url(../images/VectorBg.png);background-size: cover;
+background-position: center;width: 100%;}
+
+
+.andoried-phone .data-text
+{padding: 150px 0;}
+
+
+.andoried-phone .data-text h2
+{display: block;padding: 0px 0;}
+
+.andoried-phone .data-text p
+{display: block;padding: 20px 0;line-height: 25px;}
+
+
+.andoried-phone .get-better-app 
+{text-transform: uppercase;position: absolute;
+left: 50%;margin-top: 100px;transform: translate(-50%,-50%);}
+
+
+
+.andoried-phone .get-better-app  a
+{background: #f94d79;padding: 20px 30px;color: #fff;text-decoration: none;
+border-radius: 2px;}
+
+
+/*********************************
+ footer-section
+ *********************************/
+
+
+ .footer-section
+ {padding: 120px 0;}
+
+  .footer-section ul li
+ {list-style-type: none;}
+
+  .footer-section ul li a
+ {text-decoration: none;color: #888aa1;font-size: 14px;}
+
+
+ .subscriber-form
+ {width: 60%;margin: auto;}
+
+
+.btn-info
+{background: #33d2fd;border:none;}
+.btn-info:hover,focus
+{background: #33d2fd;border:none;}
+
+
+
+
+
+
+/*copyright*/
+
+.copyright
+{height: 80px;background: #233148;width: 100%;overflow: hidden;
+line-height: 80px;}
+
+.footer-right-links li
+{list-style: none;display: inline-block;text-align: right;
+padding-left: 20px;align-items: center;}
+
+.footer-right-links li a
+{color: #fff;}
+
+.cpy-right-text 
+{line-height: 80px;display: block;}

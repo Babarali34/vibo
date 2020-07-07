@@ -1,0 +1,39 @@
+@media  (max-width: 768px) {
+
+           /***************************************************/
+           /**************RESPONSIVE HEADER *******************
+           ****************************************************/
+           p{font-size: 18px;line-height: 25px;}
+                .header-text a
+                       {padding: 15px 10px;display: block;margin-top: 15px;}
+              .header-text h1
+             {font-size: 1.9rem;}
+                .nav-item
+                   {padding: 0px 20px;}
+
+                    .services-section .services-card
+                    {margin-top: 30px;}
+                    .space1
+                     {height: 0px !important;}
+                     .ready-stable
+                     { text-align: center; }
+                     .everything-need
+                     {text-align: center;}
+                     .andoried-phone
+                     {text-align: center;}
+                     .andoried-phone .get-better-app  a
+				         {padding: 20px 10px;display: block;}
+				         .footer-section
+				         {text-align: center;}
+				          .subscriber-form
+                           {width: 100%;margin: auto;}
+                           .btn-info
+                       {margin-top: 20px;}
+                       .copyright
+                       {height: auto;text-align: center;line-height: 10px;}
+                       .cpy-right-text 
+                         {line-height: 20px;}
+                          nav
+                          {text-align: center;}
+	
+}
